@@ -6,7 +6,7 @@ class AHP:
                 if i == j:
                     self.compMat[i][j] = (1, 1, 1)
 
-        with open(inputf, 'r') as f:
+        with open(criFile, 'r') as f:
             self.criList = f.readlines()
         self.criCount = len(self.criList)
         
